@@ -9,6 +9,7 @@ html{
     /* me permite deslizar cuando hago clic en los links del menu */
     scroll-behavior: smooth;
 }
+
 /* MENU */
 .contenedor-header{
     background: #1e2326;
@@ -55,6 +56,7 @@ html{
     cursor: pointer;
     display: none;
 }
+
 /* SECCION I N I C I O */
 .inicio{
     /* background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
@@ -208,6 +210,7 @@ html{
 .sobremi button:hover .overlay{
     width: 100%;
 }
+
 /* SECCION S K I L L S */
 .skills{
     background-color: #252A2E;
@@ -268,14 +271,15 @@ html{
     right: -15px;
     font-size: 14px;
 }
+
 /* Estas clases se agregaran dinamicamente mediante javascript */
-.skills .skill .javascript{
+.skills .skill .typescriptjavascript{
     width: 0%;
-    animation: 2s javascript forwards;
+    animation: 2s typescriptjavascript forwards;
 }
-@keyframes javascript {
+@keyframes typescriptjavascript {
     0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width: 30%;}
 }
 
 .skills .skill .htmlcss{
@@ -284,61 +288,61 @@ html{
 }
 @keyframes htmlcss {
     0%{width: 0%;}
-    100%{width: 89%;}
+    100%{width: 40%;}
 }
 
-.skills .skill .photoshop{
+.skills .skill .angular{
     width: 0%;
-    animation: 2s photoshop forwards;
+    animation: 2s angular forwards;
 }
-@keyframes photoshop {
+@keyframes angular {
     0%{width: 0%;}
-    100%{width: 95%;}
+    100%{width: 25%;}
 }
 
-.skills .skill .wordpress{
+.skills .skill .asp{
     width: 0%;
-    animation: 2s wordpress forwards;
+    animation: 2s asp forwards;
 }
-@keyframes wordpress {
+@keyframes asp {
     0%{width: 0%;}
-    100%{width: 81%;}
+    100%{width: 35%;}
 }
 
-.skills .skill .drupal{
+.skills .skill .java{
     width: 0%;
-    animation: 2s drupal forwards;
+    animation: 2s java forwards;
 }
-@keyframes drupal {
+@keyframes java {
     0%{width: 0%;}
-    100%{width: 55%;}
+    100%{width: 25%;}
 }
 
-.skills .skill .comunicacion{
+.skills .skill .python{
     width: 0%;
-    animation: 2s comunicacion forwards;
+    animation: 2s python forwards;
 }
-@keyframes comunicacion {
+@keyframes python {
     0%{width: 0%;}
-    100%{width: 80%;}
+    100%{width: 25%;}
 }
 
-.skills .skill .trabajo{
+.skills .skill .gitgithub{
     width: 0%;
-    animation: 2s trabajo forwards;
+    animation: 2s gitgithub forwards;
 }
-@keyframes trabajo {
+@keyframes gitgithub {
     0%{width: 0%;}
-    100%{width: 70%;}
+    100%{width: 30%;}
 }
 
-.skills .skill .creatividad{
+.skills .skill .sql{
     width: 0%;
-    animation: 2s creatividad forwards;
+    animation: 2s sql forwards;
 }
-@keyframes creatividad {
+@keyframes sql {
     0%{width: 0%;}
-    100%{width: 99%;}
+    100%{width: 35%;}
 }
 
 .skills .skill .dedicacion{
@@ -358,6 +362,7 @@ html{
     0%{width: 0%;}
     100%{width: 94%;}
 }
+
 /* SECCION CURRICULUM */
 .curriculum{
     background-color: #1e2326;
@@ -464,6 +469,7 @@ html{
     position: relative;
     bottom: 4px;
 }
+
 /* SECCION PORTFOLIO */
 .portfolio{
     background-color: #252A2E;
@@ -521,6 +527,7 @@ html{
 .portfolio .galeria .proyecto .overlay:hover h3{
     margin-bottom: 0px;
 }
+
 /* SECCION CONTACTO */
 .contacto{
     /* background-image: url(img/contact_bg.png); */
@@ -643,6 +650,7 @@ footer .arriba{
     line-height: 50px;
     font-size: 18px;
 }
+
 /* SECCION RESPONSIVE */
 @media screen and (max-width:980px){
     nav{
@@ -711,4 +719,10 @@ footer .arriba{
     .contacto .fila .col{
         width: 100%;
     }
+}
+
+
+/* Boton de descarga */
+.btn-download{
+    color: #fff;
 }
