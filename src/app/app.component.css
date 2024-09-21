@@ -273,6 +273,8 @@ html{
 }
 
 /* Estas clases se agregaran dinamicamente mediante javascript */
+
+/* habilidades tecnicas */
 .skills .skill .typescriptjavascript{
     width: 0%;
     animation: 2s typescriptjavascript forwards;
@@ -345,22 +347,77 @@ html{
     100%{width: 35%;}
 }
 
+/* habilidades profesionales */
+.skills .skill .comunicacion{
+    width: 0%;
+    animation: 2s comunicacion forwards;
+}
+@keyframes comunicacion {
+    0%{width: 0%;}
+    100%{width: 70%;}
+}
+
+.skills .skill .trabajoequipo{
+    width: 0%;
+    animation: 2s trabajoequipo forwards;
+}
+@keyframes trabajoequipo {
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+
+.skills .skill .creatividad{
+    width: 0%;
+    animation: 2s creatividad forwards;
+}
+@keyframes creatividad {
+    0%{width: 0%;}
+    100%{width: 60%;}
+}
+
 .skills .skill .dedicacion{
     width: 0%;
     animation: 2s dedicacion forwards;
 }
 @keyframes dedicacion {
     0%{width: 0%;}
-    100%{width: 65%;}
+    100%{width: 75%;}
 }
 
-.skills .skill .proyect{
+.skills .skill .puntualidad{
     width: 0%;
-    animation: 2s proyect forwards;
+    animation: 2s puntualidad forwards;
 }
-@keyframes proyect {
+@keyframes puntualidad {
     0%{width: 0%;}
-    100%{width: 94%;}
+    100%{width: 80%;}
+}
+
+.skills .skill .tratocliente{
+    width: 0%;
+    animation: 2s tratocliente forwards;
+}
+@keyframes tratocliente {
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+
+.skills .skill .adaptacion{
+    width: 0%;
+    animation: 2s adaptacion forwards;
+}
+@keyframes adaptacion {
+    0%{width: 0%;}
+    100%{width: 95%;}
+}
+
+.skills .skill .metodologia{
+    width: 0%;
+    animation: 2s metodologia forwards;
+}
+@keyframes metodologia {
+    0%{width: 0%;}
+    100%{width: 90%;}
 }
 
 /* SECCION CURRICULUM */
